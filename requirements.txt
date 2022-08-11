@@ -1,0 +1,10 @@
+loguru
+click
+flask
+pyspark
+pandas
+pytest
+requests
+flask-marshmallow
+flask-restful
+flasgger
