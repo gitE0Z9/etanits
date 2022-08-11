@@ -13,6 +13,7 @@ def chinese2int(val: Optional[str]):
 
     if floor:
         floor = floor.group(1)
+        
         sum = 0
         for i in range(0, len(floor), 2):
             sum += digit.find(floor[i]) * 10 ** (i // 2)
